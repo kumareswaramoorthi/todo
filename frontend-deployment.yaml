@@ -21,9 +21,5 @@ spec:
           env:
             - name: BASE_URL
               value: "http://34.134.26.103:8080/v1/api/"
-          resources:
-            limits:
-              memory: "128Mi"
-              cpu: "500m"
           ports:
             - containerPort: 3000
