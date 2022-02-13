@@ -20,6 +20,6 @@ spec:
           image: anmaroav/ima360-react:latest
           env:
             - name: BASE_URL
-              value: "http://34.134.26.103:8080/v1/api/"
+              value: "http://35.222.155.136:8080/v1/api/"
           ports:
             - containerPort: 3000
