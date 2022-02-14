@@ -18,10 +18,9 @@ spec:
       imagePullSecrets:
         - name: regcred
       containers:
-        - imagePullPolicy: Always
-        - namespace: ima
         - name: backend
           image: anmaroav/ima360-golang:latest
+          imagePullPolicy: Always
           env:
             - name: DB_HOST
               value: "34.69.98.255"
