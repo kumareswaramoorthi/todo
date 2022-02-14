@@ -1,1 +1,1 @@
-# todo
+kubectl create secret docker-registry regcred --docker-username=anmaroav --docker-password=Ima@360! --docker-email=admin@ima360.com
