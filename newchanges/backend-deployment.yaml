@@ -54,6 +54,10 @@ spec:
               value: "/usr/bin/wkhtmltopdf"
             - name: EMAIL_PWD
               value: "Ima@360!"
+            - name: DB_HOST_ENV
+              value: "CLOUDSQL"
+            - name: CLOUDSQL_INSTANCE_ID
+              value: "ima360:us-central1:gcp"
             - name: RELEASE_SERVER
               value: "http://34.134.26.103:3000"
           resources:
