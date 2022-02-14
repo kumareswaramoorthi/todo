@@ -17,7 +17,7 @@ spec:
         - name: regcred
       containers:
         - name: frontend
-          image: anmaroav/ima360-react:latest
+          image: anmaroav/ima360-react:release-v1.0
           env:
             - name: BASE_URL
               value: "http://35.222.155.136:8080/v1/api/"
