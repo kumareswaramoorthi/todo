@@ -19,6 +19,7 @@ spec:
         - name: regcred
       containers:
         - imagePullPolicy: Always
+        - namespace: ima
         - name: backend
           image: anmaroav/ima360-golang:latest
           env:
