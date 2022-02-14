@@ -17,7 +17,7 @@ spec:
         - name: regcred
       containers:
         - name: backend
-          image: anmaroav/ima360-golang:release-v1.3
+          image: anmaroav/ima360-golang:testcsql
           imagePullPolicy: Always
           env:
             - name: DB_HOST
