@@ -52,7 +52,7 @@ spec:
             - name: EMAIL_PWD
               value: "Ima@360!"
             - name: RELEASE_SERVER
-              value: "http://35.222.155.136:8080/v1/api"
+              value: "http://35.222.155.136:3000"
           resources:
             limits:
               memory: "128Mi"
