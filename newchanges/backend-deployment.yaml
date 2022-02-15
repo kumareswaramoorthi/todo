@@ -17,7 +17,7 @@ spec:
         - name: regcred
       containers:
         - name: backend
-          image: anmaroav/ima360-golang:testcsql
+          image: anmaroav/ima360-golang:release-v1.0
           imagePullPolicy: Always
           env:
             - name: DB_HOST
@@ -53,9 +53,9 @@ spec:
             - name: EMAIL_PWD
               value: "Ima@360!"
             - name: DB_HOST_ENV
-              value: "cloudsql"
+              value: ""
             - name: CLOUDSQL_INSTANCE_ID
-              value: "ima360:us-central1:gcp"
+              value: ""
             - name: RELEASE_SERVER
               value: "http://34.134.26.103:3000"
           resources:
